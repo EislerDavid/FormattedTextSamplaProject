@@ -4,12 +4,12 @@
              xmlns:local="clr-namespace:FormattedTextSamplaProject"
              x:Class="FormattedTextSamplaProject.MainPage">
 
-    <StackLayout>
+    <StackLayout Margin="20" Padding="10">
         <Label LineBreakMode="TailTruncation">
             <Label.FormattedText>
                 <FormattedString>
                     <Span FontAttributes="Bold">iOS and Android API 22: </Span>
-                    <Span>Tail truncation not working on iOS and stuck (not crash) on Android 5 and lower. But it's working on higher Android versions.</Span>
+                    <Span>Tail truncation not working on iOS and freezes (not crash) on Android 5 and lower. But it's working on higher Android versions.</Span>
                 </FormattedString>
             </Label.FormattedText>
         </Label>

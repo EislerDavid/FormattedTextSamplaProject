@@ -16,7 +16,7 @@ namespace FormattedTextSamplaProject
 
             var fs = new FormattedString();
             fs.Spans.Add(new Span { Text = "All Androids: ", FontAttributes = FontAttributes.Bold });
-            fs.Spans.Add(new Span { Text = "When I add some new lines, it will stuck on all Androids." + Environment.NewLine + "Do sou see?" });
+            fs.Spans.Add(new Span { Text = "When I add some new lines, it will freezes on all Androids." + Environment.NewLine + "Do sou see?" });
             this.CrashingLabel.FormattedText = fs;
         }
     }
